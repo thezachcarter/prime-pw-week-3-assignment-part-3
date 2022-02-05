@@ -60,7 +60,7 @@ for ( parts of supplyChanges ) {
 // 8. Write a loop to determine the total number of parts available by
 //    adding up all the numbers in the 'supplyChanges' array.
 console.log('8. Total supplies available is:');
-let partsTotal = 0
+let partsTotal = 0;
 
 for (parts of supplyChanges) {
   partsTotal += parts;
@@ -74,3 +74,10 @@ console.log(partsTotal);
 //    no more boxes can be filled.
 //    Then log how many boxes were filled, and how many parts are left over.
 console.log('9. Filling boxes with a "while" loop');
+let looseParts = 572;
+
+while( looseParts>=7 ){
+  looseParts-=7;
+  console.count('boxes filled');
+}
+console.log(looseParts + ' leftover parts');
